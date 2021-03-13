@@ -1,0 +1,21 @@
+{
+    "$id": "newAdminUser",
+    "type": "object",
+    "properties": {
+      "email": {
+        "type": "string",
+        "format": "emailAddress"
+      },
+      "organizations": {
+        "type": "array"
+      },
+      "firstname": {
+        "type": "string"
+      },
+      "lastname": {
+        "type": "string"
+      }
+    },
+    "required": ["email", "firstname", "lastname"]
+  }
+  

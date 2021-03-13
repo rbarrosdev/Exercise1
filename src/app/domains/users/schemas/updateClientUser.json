@@ -1,0 +1,23 @@
+{
+  "$id": "newUser",
+  "type": "object",
+  "properties": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "format": "emailAddress"
+    },
+    "roles": {
+      "type": "array"
+    },
+    "organizations": {
+      "type": "array"
+    }
+  },
+  "required": ["firstname", "lastname", "email"]
+}

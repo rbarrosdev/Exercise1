@@ -1,0 +1,26 @@
+{
+  "$id": "newClientUser",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "format": "emailAddress"
+    },
+    "password": {
+      "type": "string"
+    },
+    "roles": {
+      "type": "array"
+    },
+    "organizations": {
+      "type": "array"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    }
+  },
+  "required": ["email", "password", "firstname", "lastname"]
+}

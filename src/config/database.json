@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "shopfront",
+    "host": "172.17.0.2",
+    "port": "27017"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "shopfront",
+    "host": "localhost",
+    "port": "27017"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "shopfront_test",
+    "host": "172.17.0.2",
+    "port": "27017"
+  }
+}

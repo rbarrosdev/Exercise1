@@ -1,0 +1,14 @@
+{
+  "$id": "login",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "format": "emailAddress"
+    },
+    "password": {
+      "type": "string"
+    }
+  },
+  "required": ["email", "password"]
+}
